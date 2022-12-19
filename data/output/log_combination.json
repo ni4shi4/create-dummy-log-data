@@ -1,0 +1,422 @@
+[
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "topic",
+      "requestType": "create",
+      "requestMetadata": {
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "comment",
+      "requestType": "create",
+      "requestMetadata": {
+        "commentId": "id",
+        "parentTopicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "like",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "comment",
+        "commentId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "create",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "reaction",
+      "requestType": "delete",
+      "requestMetadata": {
+        "reactionType": "dislike",
+        "reactionTarget": "topic",
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 100
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "comment",
+      "requestType": "create",
+      "requestMetadata": {
+        "commentId": "id",
+        "parentTopicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 200
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "comment",
+      "requestType": "delete",
+      "requestMetadata": {
+        "commentId": "id",
+        "parentTopicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "comment",
+      "requestType": "delete",
+      "requestMetadata": {
+        "commentId": "id",
+        "parentTopicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 200
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "topic",
+      "requestType": "create",
+      "requestMetadata": {
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 300
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "topic",
+      "requestType": "delete",
+      "requestMetadata": {
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "request"
+    }
+  },
+  {
+    "userId": "id",
+    "userIp": "ip",
+    "request": {
+      "requestId": "uuid",
+      "type": "topic",
+      "requestType": "delete",
+      "requestMetadata": {
+        "topicId": "id"
+      }
+    },
+    "response": {
+      "status": "done",
+      "result": "OK",
+      "processingTime": 300
+    }
+  }
+]

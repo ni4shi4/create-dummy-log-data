@@ -1,0 +1,6 @@
+pyyaml
+jsonpath_ng
+pandas
+jinja2
+pyarrow
+google.cloud.bigquery >= 3.0.1

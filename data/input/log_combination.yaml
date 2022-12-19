@@ -1,0 +1,55 @@
+- userId: id
+  userIp: ip
+  request:
+    requestId: uuid
+    type: topic
+    requestType: 
+      - create
+      - delete
+    requestMetadata:
+      topicId: id
+  response:
+    - status: request
+    - status: done
+      result: OK
+      processingTime: 300
+- userId: id
+  userIp: ip
+  request:
+    requestId: uuid
+    type: comment
+    requestType: 
+      - create
+      - delete
+    requestMetadata:
+      commentId: id
+      parentTopicId: id
+  response:
+    - status: request
+    - status: done
+      result: OK
+      processingTime: 200
+- userId: id
+  userIp: ip
+  request:
+    requestId: uuid
+    type: reaction
+    requestType: 
+      - create
+      - delete
+    requestMetadata:
+      - reactionType:
+          - like
+          - dislike
+        reactionTarget: topic
+        topicId: id
+      - reactionType:
+          - like
+          - dislike
+        reactionTarget: comment
+        commentId: id
+  response:
+    - status: request
+    - status: done
+      result: OK
+      processingTime: 100
